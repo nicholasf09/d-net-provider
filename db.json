@@ -1,0 +1,12 @@
+{
+    "users": [
+      { "id": 1, "email": "user1@example.com", "password": "12345" }
+    ],
+    "customers": [
+      { "id": 1, "name": "John Doe", "email": "john@example.com" }
+    ],
+    "transactions": [
+      { "id": 1, "customerId": 1, "package": "10GB", "price": 50000 }
+    ]
+  }
+  
