@@ -1,12 +1,24 @@
 {
-    "users": [
-      { "id": 1, "email": "user1@example.com", "password": "12345" }
-    ],
-    "customers": [
-      { "id": 1, "name": "John Doe", "email": "john@example.com" }
-    ],
-    "transactions": [
-      { "id": 1, "customerId": 1, "package": "10GB", "price": 50000 }
-    ]
-  }
-  
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "customer": "John Doe",
+      "amount": 100
+    },
+    {
+      "id": "2",
+      "customer": "Jane Smith",
+      "amount": 200
+    }
+  ]
+}
